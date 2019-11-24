@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar';
-import MainContent from './components/MainContent';
+import Callout from './components/Callout';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <Navbar />
+    <Fragment>
+      <Navbar />
+      <Callout />
+    </Fragment>
   );
 }
 
