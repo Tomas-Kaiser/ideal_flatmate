@@ -4,10 +4,11 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
+import '../static/css/navbar.css';
 
 function Navbar() {
    return (
-      <div>
+      <div className="navbar">
          <AppBar position="fixed">
             <Toolbar>
                <Grid
