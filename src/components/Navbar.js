@@ -8,7 +8,7 @@ import Grid from '@material-ui/core/Grid';
 function Navbar() {
    return (
       <div>
-         <AppBar position="static">
+         <AppBar position="fixed">
             <Toolbar>
                <Grid
                   container
