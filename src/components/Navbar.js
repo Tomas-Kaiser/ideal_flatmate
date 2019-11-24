@@ -4,6 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
+import Link from '@material-ui/core/Link';
 import '../static/css/navbar.css';
 
 function Navbar() {
@@ -21,9 +22,9 @@ function Navbar() {
                      <Typography variant="title" color="inherit">Ideal Flatmates</Typography>
                   </Grid>
                   <Grid item xs={7} container justify="flex-end">
-                     <MenuItem>Accommodation in Dublin</MenuItem>
-                     <MenuItem>Flatmate of the week</MenuItem>
-                     <MenuItem>Contact</MenuItem>
+                     <MenuItem component={Link} to="">Accommodation in Dublin</MenuItem>
+                     <MenuItem component={Link} to="">Flatmate of the week</MenuItem>
+                     <MenuItem component={Link} to="">Contact</MenuItem>
                   </Grid>
                </Grid>
             </Toolbar>
