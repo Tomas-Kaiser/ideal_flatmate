@@ -4,11 +4,13 @@ import '../static/css/callout.css';
 function Callout() {
    return (
       <div className="callout-container">
-         <header>
-            <h2>Find your Ideal flatmate</h2>
-         </header>
-         <div className="form-wrap">
-            Here is going to be form/searching the ideal flatmate
+         <div className="jumbotron">
+            <header>
+               <h2>Find your Ideal flatmate</h2>
+            </header>
+            <div className="form-wrap">
+               Is here going to be a form/searching the ideal flatmate??
+            </div>
          </div>
       </div>
    )
