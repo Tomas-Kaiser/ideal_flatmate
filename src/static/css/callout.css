@@ -12,6 +12,8 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+
+   box-sizing: border-box;
 }
 
 h2 {
@@ -20,8 +22,8 @@ h2 {
 
 .jumbotron {
    background-color: rgba(0,0,0,.7);
-   height: 15%;
-   width: 50%;
+   height: 30%;
+   width: 60%;
    
    color: #fff;
    display: flex;
@@ -29,3 +31,18 @@ h2 {
    justify-content: center;
    align-items: center;
 }
+
+.callout-container header {
+   padding: 15px;
+}
+
+.form-wrap {
+   padding: 15px;
+}
+
+@media only screen and (min-width: 900px) {
+   .jumbotron {
+      height: 25%;
+      width: 50%;
+   }
+ }
