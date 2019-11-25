@@ -19,7 +19,7 @@ function Navbar() {
                   alignItems="center"
                >
                   <Grid item xs={4}>
-                     <Typography variant="title" color="inherit">Ideal Flatmates</Typography>
+                     <Typography variant="inherit" color="inherit">Ideal Flatmates</Typography>
                   </Grid>
                   <Grid item xs={7} container justify="flex-end">
                      <MenuItem component={Link} to="">Accommodation in Dublin</MenuItem>
